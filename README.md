@@ -1,6 +1,8 @@
 # ImageClassifierAIPND
- Capstone Project from Udacity'a AI Programming with Python Nano Degree
+ Capstone Project from Udacity's AI Programming with Python Nano Degree
 Python application that can train an Image Classifier on a dataset, then predict new Images using Trained model.
+
+This Application uses PyTorch framework.
 
 ## Training
 To train a model, run `train.py`, with desired arguments.
