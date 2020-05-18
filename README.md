@@ -32,7 +32,7 @@ After training the model, {checkpoint}.pth file is observed in your working dire
 To make prediction, run `predict.py`, with desired arguments.
 ### Example command
 ```
-python predict.py --check_point checkpoint.pth --img flowers/test/23/image_05100.jpg --category_to_name cat_to_name.json
+python predict.py --check_point checkpoint.pth --img flowers/test/32/image_051001.jpg --top_k 5 --category_to_names cat_to_name.json --gpu true
 ```
 ### Usage
 ```
